@@ -90,8 +90,7 @@ Please pick from one of the following options:
 
             seniles = (float(old_sen) * float(survival_rate)) + float(old_adu)
             juveniles = float(old_adu) * float(birth_rate)
-            adults = 0
-            adults = float(old_adu) + float(old_juv)
+            adults = float(old_juv)
             
             print("\nThere are now", round(juveniles), "juveniles,", round(adults), "adults, and", round(seniles), "seniles.\nThat makes a total of", round(juveniles) + round(adults) + round(seniles), "greenflies.")
             
