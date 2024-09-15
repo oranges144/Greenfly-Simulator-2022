@@ -1,10 +1,10 @@
 #Variables
-juveniles = '0'
-adults = '0'
-seniles = '0'
-birth_rate = '0'
-survival_rate = '0'
-menu_choice = '0'
+juveniles = str('0')
+adults = str('0')
+seniles = str('0')
+birth_rate = str('0')
+survival_rate = str('0')
+menu_choice = str('0')
 
 #Functions and lists
 def leave():
